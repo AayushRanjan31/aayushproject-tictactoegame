@@ -1,0 +1,178 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue",;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+
+.started {
+    width: 100%;
+    height: 100vh;
+    background-image: url(backg.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    background-color:  rgba(111, 111, 241, 0.242);  
+    color: black;
+    padding: 5px;
+}
+
+h3:hover {
+    cursor: pointer;
+    background-color:  rgba(89, 89, 243, 0.377);
+}
+
+h4 {
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px rgba(51, 51, 246, 0.365);
+    font-weight: bold; 
+    background-image: url(bg2.png);
+    background-position: center;
+    background-size: 20px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent ;
+}
+
+
+  
+ 
+/* Game pannel */
+ 
+#main {
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(25deg, rgba(245, 149, 149, 0.329) 0 50%, rgba(98, 98, 234, 0.26) 50% 100% ), linear-gradient(-25deg, rgba(240, 138, 138, 0.249) 0 50%, rgba(123, 123, 235, 0.221) 50% 100%),
+    linear-gradient(90deg, rgba(239, 145, 145, 0.258) 0 50%, rgba(111, 111, 241, 0.242) 50% 100%), linear-gradient(0deg, rgba(243, 146, 146, 0.233) 0 50%, rgba(124, 124, 229, 0.192) 50% 100%);
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   flex-direction: column;
+}
+
+h1 {
+   text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: 20px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent ;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2px;
+}
+
+
+.box {
+    height: 18vh;
+    border: none;
+    outline: none;
+    font-size: 40px;
+    font-weight: 500;
+    background-color: rgba(245, 149, 149, 0.043);
+    color: black;
+}
+
+.border1 {
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.border2 {
+    border-bottom: 2px solid black;
+}
+.border3 {
+    border-right: 2px solid black;
+    
+}
+
+.box:hover {
+    background:linear-gradient(25deg, rgba(245, 149, 149, 0.329) 0 50%, rgba(98, 98, 234, 0.26) 50% 100% ), linear-gradient(-25deg, rgba(240, 138, 138, 0.249) 0 50%, rgba(123, 123, 235, 0.221) 50% 100%),
+    linear-gradient(90deg, rgba(239, 145, 145, 0.258) 0 50%, rgba(111, 111, 241, 0.242) 50% 100%), linear-gradient(0deg, rgba(243, 146, 146, 0.233) 0 50%, rgba(124, 124, 229, 0.192) 50% 100%);;
+    cursor: pointer;
+}
+
+
+#container2 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.box2 {
+    margin: 30px 30px 0 30px;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border-bottom: 1px solid;
+}
+
+.box2:hover {
+    background:linear-gradient(25deg, rgba(245, 149, 149, 0.329) 0 50%, rgba(98, 98, 234, 0.26) 50% 100% ), linear-gradient(-25deg, rgba(240, 138, 138, 0.249) 0 50%, rgba(123, 123, 235, 0.221) 50% 100%),
+    linear-gradient(90deg, rgba(239, 145, 145, 0.258) 0 50%, rgba(111, 111, 241, 0.242) 50% 100%), linear-gradient(0deg, rgba(243, 146, 146, 0.233) 0 50%, rgba(124, 124, 229, 0.192) 50% 100%);;
+    cursor: pointer;
+}
+
+.msg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+    background-image: url(winner.gif);
+    background-size: 100%;
+}
+
+
+p {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+h5 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.hide {
+    display: none;
+} 
+
+
+
+
+ @media(max-width:600px) {
+   
+    .box {
+        height: 10vh;
+      
+    }
+ }
+
+ 

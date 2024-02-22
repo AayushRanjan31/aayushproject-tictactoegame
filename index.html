@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   
+    <div class="started">
+        <h4>Tic Tac Toe</h4>
+        <button onclick="startgame()"> <h3>Start The Game</h3></button>
+    </div>
+
+
+
+     <div class="showthegame hide" >
+        <!-- Game pannel  -->
+
+        <div id="main">
+            <h1 >Tic Tac Toe</h1> 
+    <div class="msg-container hide ">
+        <p id="msg"></p>
+        <h5>Winner!</h5>
+       </div>
+       
+       <div class="container">
+            <button class="box border1"></button>
+            <button class="box border1"></button>
+            <button class="box border2"></button>
+            <button class="box border1"></button>
+            <button class="box border1"></button>
+            <button class="box border2"></button>
+            <button class="box border3"></button>
+            <button class="box border3"></button>
+            <button class="box"></button>  
+    </div>
+
+        <div id="container2">
+        <button class="box2" id="reset">Reset</button>
+        <button class="box2" id="newgame">New Game</button>
+    </div>
+</div>
+</div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
